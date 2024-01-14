@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height:100%;
+    width:100%;
+}
+#main{
+    position:sticky;
+    top:0;
+    height:100vh;
+    width:100%;
+
+}
+#back{
+    height:100vh;
+    width:100%;
+
+}
+#top{
+   
+    position:absolute;
+    top:0;
+    left:0;
+    height:100vh;
+    width:100%;
+
+    background-color: rgba(128, 128, 128, 0);
+
+}
+#workingarea{
+    margin:0 auto;
+    width:80%;
+    height:100vh;
+    max-width:1920px;
+}
+#nav{
+    justify-content: space-around;
+    display:flex;
+    width:100%;
+    padding:40px 0;
+    align-items: center;
+}
+#nav img{
+    height:60px;
+}
+
+#nleft a{
+    pointer-events: all;
+    color:white;
+    font-family:"gillroy";
+    text-decoration: none;
+    font-weight:500;
+}
+#nleft,#nright{
+    display:flex;
+    gap:50px;
+    align-items:center;
+}
+#nright a{
+    pointer-events: all;
+    color:white;
+    font-family:"gillroy";
+    text-decoration: none;
+    font-weight:500;
+}
+#hero{
+    position:absolute;
+    top:30%;
+    left:0;
+    display:flex;
+    justify-content: space-around;
+    width:100%;
+    height:100px;
+    transform: translate(0,-50%);
+}
+
+#heroleft{
+   
+    min-width:50%;
+    height:100%;
+}
+#heroright{
+    color:white;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width:25%;
+    height:400px;
+
+}
+#heroleft .elem{
+    position:relative;
+    width:70%;
+    overflow:hidden;
+    height:5vw;
+    margin-left: 80px;
+
+
+}
+#heroleft .elem h1{
+    position: absolute;
+    top:100%;
+    left:0;
+    color:white;
+    font-weight:100;
+    font-size:5vw;
+    line-height:.9;
+
+}
+#heroleft .elem h1:nth-child(1){
+    top:0;
+}
+#heroleft button{
+    pointer-events: all;
+    padding:1vw 3vw;
+    font-size:1vw;
+    color:black;
+    background-color: white;
+    margin-left:80px;
+}
+#heroright p{
+    text-align:right;
+    font-size:14px;
+    margin-top:50px;
+}
+#heroright #image{
+    width:70%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background: url(https://images.unsplash.com/photo-1523912277209-5fd38d4d667e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2slMjBnaXJsfGVufDB8fDB8fHww);
+    height:200px;
+    background-size: cover;
+    background-color: red;
+}
+#back img{
+    width:100%;
+    height:100%;
+    object-position: center;
+}
+
